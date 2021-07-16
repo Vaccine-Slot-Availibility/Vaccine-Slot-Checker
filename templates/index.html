@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slot availibility Checker</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="/static/css/bootstrap.css" rel="stylesheet">
+  <link href="/static/css/index.css" rel="stylesheet">
+  <script src="/static/js/jquery.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: black; padding-top: 50px;">
+
+  <!-- Header -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand"><span> <img src="/static/img/logo2.jpg" width="35"
+              alt=""></span> Slot Checker</a>
+
+
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li><a href="/about.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+          <li><a href="https://selfregistration.cowin.gov.in/"><span class="glyphicon glyphicon-log-in"></span>
+              Registration</a></li>
+          <li><a href = "mailto: slotavailibility12345@gmail.comm"><span class="glyphicon glyphicon-earphone"></span>Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--Header end-->
+
+  <div id="content">
+    <!--Main banner image-->
+    <div id="banner_image">
+      <div class="container">
+        <center>
+          <div id="banner_content1" style="border: 2px solid rgb(84, 182, 228); border-radius: 25px;">
+            <h1>Check Slot Availibility</h1>
+            <br />
+            <a href="/products.html" class="btn btn-lg active" style="background-color: aqua;size: 25px; color: black; border: 2px solid black; border-radius: 25px;">Check Now</a>
+          </div>
+        </center>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row text-center" style="margin-left: 5%;" id="item_list">
+
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/static/img/bharat-biotech-covaxin-packshot.jpg" alt="Avatar" style="width:300px;height:300px; border: 4px solid rgb(17, 18, 19); border-radius: 25px;">
+              </div>
+              <div class="flip-card-back" style="border: 4px solid rgb(84, 182, 228); border-radius: 25px;"">
+                <h1>COVAXIN</h1>
+                <p>Covaxin was made by Bharat Biotech in collaboration with the Indian Council of Medical Research (ICMR) - National Institute of Virology (NIV).The Indian government has said it will press the EU to include Covishield and Covaxin in the list of vaccines that qualify for the vaccine passports.</p>
+                <button style="background-color: aqua;size: 25px; color: black; border: 2px solid black; border-radius: 25px;"><a href="https://www.bharatbiotech.com/images/covaxin/covaxin-factsheet2.pdf">Know more</a></button>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-sm-4">
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/static/img/product_covishield.jpg" alt="Avatar" style="width:300px;height:300px; border: 4px solid rgb(17, 18, 19); border-radius: 25px;">
+              </div>
+              <div class="flip-card-back" style="border: 4px solid rgb(84, 182, 228); border-radius: 25px;">
+                <h1>COVISHIELD</h1>
+                <p>Pune- based serum Institute of india partnered with Oxford University to manufacturer their Covishield vaccine in india 
+                  On Jan 16 , 2021 , 1st dose of Covishield vaccine was administered to recipients based on a priority list prepared by the government. 
+                  Earlier the gap between the 2 dose was 6-8 weeks which is now increased to 12-16 weeks.</p>
+                <button style="background-color: aqua;size: 25px; color: black; border: 2px solid black; border-radius: 25px;"><a href="https://www.seruminstitute.com/pdf/covishield_fact_sheet.pdf">Know more</a></button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="/static/img/sv1 (1).jpg" alt="Avatar" style="width:300px;height:300px; border: 4px solid rgb(17, 18, 19); border-radius: 25px;">
+              </div>
+              <div class="flip-card-back" style="border: 4px solid rgb(84, 182, 228); border-radius: 25px;"">
+                <h1>SPUTNIK_V</h1>
+                <p>Sputnik was development by 
+                  Dr Reddys Laboratories Ltd, which soft-launched Russia's COVID-19 vaccine, Sputnik V here on May 14 has expanded the pilot project to over 50 other cities and towns in the country.</p>
+                <button style="background-color: aqua;size: 25px; color: black; border: 2px solid black; border-radius: 25px;"><a href="https://www.precisionvaccinations.com/vaccines/sputnik-v-vaccine#:~:text=The%20Russian%20COVID%2D19%20vaccine,and%20stimulate%20an%20immune%20response.">Know more</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script>
+    $('.flip').hover(function () {
+      $(this).find('.card').toggleClass('flipped');
+
+    });
+
+  </script>
+  <script crossorigin="anonymous" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+<footer>
+  <div class="container">
+    <center>
+      <p>This Website is Made by Group no. 4 PBL by Students of PICT DIV 8</p>
+    </center>
+  </div>
+</footer>
+</html>
